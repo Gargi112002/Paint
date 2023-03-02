@@ -1,0 +1,87 @@
+h1 {
+    color: white;
+    font-size: 30px;
+    background: linear-gradient(45deg, rgb(55, 77, 110) 30%, rgb(117, 130, 146) 58%);
+    text-align: center;
+
+}
+p{
+    color: white;
+    font-size: medium;
+    font-style: normal;
+}
+/* .bg{
+    background: linear-gradient(45deg, rgba(21,44,75,1) 44%, rgba(176,186,201,1) 95%);
+
+} */
+.containers{
+    /* background: linear-gradient(45deg, rgb(55, 77, 110) 30%, rgb(117, 130, 146) 58%); */
+    /* text-align: center;
+    justify-content: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    
+
+}
+.c1:hover  {
+    border: 1px solid black;
+    transform: scale(1.05);
+  }
+  
+  .c1:active {
+    transform: scale(0.95) rotateZ(1.7deg);
+
+  }
+
+.c1{
+    margin-right:50px;
+    transition: all 0.5s;
+    backdrop-filter: blur(6px);
+    cursor: pointer;
+    background: linear-gradient(45deg, rgb(55, 77, 110) 30%, rgb(117, 130, 146) 58%)
+
+}
+.c2{
+    margin-left: 50px;
+    transition: all 0.5s;
+    backdrop-filter: blur(6px);
+    cursor: pointer;
+    background: linear-gradient(45deg, rgb(55, 77, 110) 30%, rgb(117, 130, 146) 58%)
+}
+.c2:hover  {
+    border: 1px solid black;
+    transform: scale(1.05);
+  }
+  
+  .c2:active {
+    transform: scale(0.95) rotateZ(1.7deg);
+
+  }
+
+.rectangle{
+    width:400px;
+    height:160px;
+    border-radius: 1rem;
+    /* margin-left: 220px; */
+    margin-top: 50px;
+    font-size: medium;
+    font-style: normal;
+    color: white;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    /* transform:translate(50%,50%); */
+    background:linear-gradient(45deg, rgb(55, 77, 110) 30%, rgb(117, 130, 146) 58%);
+    /* align-content: center; */
+    text-align: center;
+    
+}

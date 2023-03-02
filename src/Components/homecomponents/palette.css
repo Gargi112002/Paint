@@ -1,0 +1,98 @@
+.Palette{
+    width: 100%;
+    min-height: 50vh;
+    display: grid;
+}
+
+.contain{
+    margin-left:60px;
+    width: 22%;
+    height: 100%;
+    margin-top: 10px;
+    
+    /* max-width: 590px; */
+    display:flex;
+    /* justify-content: space-between; */
+    flex-wrap: wrap;
+}
+.contain .card{
+    
+    height: 10%;
+    max-width:10px;
+    margin: 2px 0px;
+    margin-left: 13px;
+   
+
+}
+.contain .card .box{
+
+    padding-right: 20px;
+    height: 20px;
+    border-radius: 3px;
+    cursor:pointer;
+}
+
+
+.canvas-container {
+    background-color:rgb(175, 174, 174);
+    margin-top: 15px;
+    margin-left: 8px;
+    margin-right: 8px;
+    align-content: center;
+    height: 500px;
+    width: 1350px;
+    border: 2px solid black;
+     
+}
+
+.hi{
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+  
+    margin-right: 2px;
+   
+}
+.tools{
+
+    display:flex;
+    position:absolute;
+    right:0;
+
+ 
+}
+
+.draw:hover { 
+    cursor: url("C:\Users\DELL\Desktop\paint\CDAC-Final-main\src\Components\homecomponents\bb1.jpeg");
+    overflow: hidden;
+    
+}
+
+.style{
+    margin-top: -52px;
+    margin-left: 10px;
+    margin-bottom: -115px;
+}
+
+.cursor-dot , .cursor-dot-online{
+    pointer-events: none;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    border-radius: 50%;
+    opacity: 1;
+    transition: opacity 0.3s ease-in-out,tranform 0.3s ease-in-out;
+}
+
+.cursor-dot{
+    width: 8px;
+    height: 8px;
+    background-color: red;
+}
+
+.cursor-dot-online{
+    width: 40px;
+    height: 40px;
+    background-color: rgba(229,128,128,0.5);
+}

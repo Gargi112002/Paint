@@ -1,0 +1,112 @@
+.uname{
+  animation-duration: 30s;
+}
+
+form{
+  padding-top: 10px;
+}
+
+.login-form {
+  /* background-color: #152C4B; */
+  background: rgb(176,186,201);
+  background: linear-gradient(45deg, rgba(176,186,201,1) 30%, rgba(21,44,75,1) 58%);
+  padding: 2rem;
+  width: 50%;
+  padding-top: 20px;
+  /* padding-left: 20px; */
+  /* z-index: 101;
+  float: right; */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+label{
+  color: white;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin: 10px;
+}
+
+h4{
+  font-size: small;
+  font-weight: normal;
+  padding-top: 20px;
+  padding-left: 10px;
+  color: white; 
+  display: inline;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+.button-container:hover{
+  cursor: pointer;
+}
+
+h1{
+  text-align: center;
+  font-size: small;
+  font-weight: normal;
+  padding-top: 20px;
+  color: white;
+  font-family: sans-serif;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.title{
+  margin-top: 10px;
+  text-align: center;
+  color: white;
+}
+
+.title {
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+.app {
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction:column;
+  gap: 10px;
+  height: 75vh;
+  /* margin-top: 50px;
+  margin-left: 392px;
+  width: 80vh;
+  border-radius: 10px; */
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  /* background-color: black; */
+  /* background-image: "bg.jpg"; */
+  /* background-color: #004e92; */
+  /* background: url("bg.jpg"); */
+  background: rgb(21,44,75);
+background: linear-gradient(45deg, rgba(21,44,75,1) 44%, rgba(176,186,201,1) 95%);
+  /* opacity: 0.5; */
+  box-shadow: 5px 8px 32px 5px rgba(82, 92, 219, 0.37);
+}
+
+input[type="text"],
+input[type="password"] {
+  height: 25px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+input[type="submit"] {
+  margin-top: 10px;
+  cursor: pointer;
+  font-size: 15px;
+  background:  rgba(21,44,75,1);
+  border: 1px  rgba(21,44,75,1);
+  color: #fff;
+  padding: 10px 20px;
+}
+
+input[type="submit"]:hover {
+  background: #B0BAC9;
+}
